@@ -1,0 +1,17 @@
+# Nmap 7.98 scan initiated Mon Oct 20 18:26:58 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -T4 -oN scans\\02_syn_scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0067s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+
+Nmap scan report for 192.168.1.101
+Host is up (0.0062s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+49152/tcp closed unknown
+
+# Nmap done at Mon Oct 20 18:27:08 2025 -- 256 IP addresses (2 hosts up) scanned in 10.11 seconds

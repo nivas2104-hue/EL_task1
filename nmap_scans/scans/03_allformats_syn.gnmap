@@ -1,0 +1,6 @@
+# Nmap 7.98 scan initiated Mon Oct 20 18:29:00 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -T4 -oA scans\\03_allformats_syn 192.168.1.0/24
+Host: 192.168.1.1 ()	Status: Up
+Host: 192.168.1.1 ()	Ports: 23/open/tcp//telnet///, 53/open/tcp//domain///, 80/open/tcp//http///, 1900/open/tcp//upnp///	Ignored State: closed (996)
+Host: 192.168.1.101 ()	Status: Up
+Host: 192.168.1.101 ()	Ports: 22939/closed/tcp/////	Ignored State: filtered (999)
+# Nmap done at Mon Oct 20 18:29:10 2025 -- 256 IP addresses (2 hosts up) scanned in 9.66 seconds

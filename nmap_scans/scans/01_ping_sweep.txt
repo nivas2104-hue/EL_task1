@@ -1,0 +1,6 @@
+# Nmap 7.98 scan initiated Mon Oct 20 18:23:16 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oN scans\\01_ping_sweep.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0040s latency).
+Nmap scan report for 192.168.1.101
+Host is up (0.011s latency).
+# Nmap done at Mon Oct 20 18:23:21 2025 -- 256 IP addresses (2 hosts up) scanned in 5.43 seconds

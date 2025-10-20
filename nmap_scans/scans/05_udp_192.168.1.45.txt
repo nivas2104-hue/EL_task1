@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Mon Oct 20 19:19:06 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sU -p 53,67,123,161 -oN scans\\05_udp_192.168.1.45.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0031s latency).
+
+PORT    STATE         SERVICE
+53/udp  open          domain
+67/udp  open|filtered dhcps
+123/udp open|filtered ntp
+161/udp open|filtered snmp
+MAC Address: D8:44:89:1D:EF:87 (TP-Link PTE.)
+
+# Nmap done at Mon Oct 20 19:19:12 2025 -- 1 IP address (1 host up) scanned in 5.36 seconds

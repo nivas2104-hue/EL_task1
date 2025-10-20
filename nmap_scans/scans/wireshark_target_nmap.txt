@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Mon Oct 20 19:37:08 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -p 22,80,443 -oN scans\\wireshark_target_nmap.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0035s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: D8:44:89:1D:EF:87 (TP-Link PTE.)
+
+# Nmap done at Mon Oct 20 19:37:09 2025 -- 1 IP address (1 host up) scanned in 0.78 seconds

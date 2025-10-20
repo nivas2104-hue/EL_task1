@@ -1,0 +1,17 @@
+# Nmap 7.98 scan initiated Mon Oct 20 18:35:39 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -sV -p- -T4 -oN scans\\04_svc_192.168.0.1.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.015s latency).
+Not shown: 65527 filtered tcp ports (no-response)
+PORT      STATE  SERVICE    VERSION
+22/tcp    open   ssh        OpenSSH 6.6.0 (protocol 2.0)
+53/tcp    open   domain     dnsmasq 2.85
+80/tcp    open   http       TP-LINK router http config
+443/tcp   open   ssl/https?
+1900/tcp  open   upnp       TP-LINK router upnpd
+37752/tcp closed unknown
+40201/tcp closed unknown
+42830/tcp closed unknown
+MAC Address: D8:44:89:1D:EF:87 (TP-Link PTE.)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 20 18:37:41 2025 -- 1 IP address (1 host up) scanned in 121.32 seconds
